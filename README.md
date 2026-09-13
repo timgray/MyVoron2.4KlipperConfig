@@ -376,5 +376,3 @@ I wanted the configuration to describe the printer I actually have today.  CAN t
 More importantly I wanted the behavior to be obvious when reading the files.  A macro should tell you WHY it is doing something, not require archaeology through four include files to discover which version of `PAUSE` won.
 
 This is still a machine I tinker with, so the config will continue changing.  That is sort of the point of building a Voron in the first place.
-
- 
