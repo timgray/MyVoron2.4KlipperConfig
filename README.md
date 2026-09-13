@@ -365,6 +365,14 @@ Some commands in these macros physically move the printer to coordinates that ar
 
 If you copy a service macro from a stranger on GitHub and drive your toolhead into a bucket of tools sitting in front of the printer, that is between you, Klipper and the bucket.
 
+## A Note About your Slicer settings
+
+PRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single] and PRINT_END are the only things in your slicer gcode.   Let me repeat that.  THOSE ARE THE ONLY THINGS IN YOUR GCODE!
+
+Buy Why?  Orca has all kinds of goodies in the default voron profile.   Yeah Orca devs are WRONG.  honestly for any Klipper printer you should never  ever do crap in the slicer for gcode. keep it dumb there.  Oh you want a chamber heater?  then modify the PRINT_START to handle that.  spreading g code all over the place like it's candy corn is not the answer.  Slicer devs need to understand this for Klipper printers.
+
+
+
 ## Why I Did All This
 
 Mostly because the printer worked, but the configuration had reached that stage where it worked because I knew all of its weird little behaviors.
