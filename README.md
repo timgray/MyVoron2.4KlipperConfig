@@ -6,6 +6,8 @@ This aims to be a working example of how I set up my 2.4, and more importantly, 
 
 There is some custom stuff here, but none of it is magic.  The goal was to make the printer predictable.  Home means home, QGL means QGL, pause actually pauses safely, filament changes do what I expect, and the LEDs/buttons give me useful information instead of just looking pretty.
 
+Oh did I use AI to make this MD file?  You bet your ass,  I am not going to sit here typing and researching all this crap through months of config file changes and tuning just to make some Anti AI witch hunters happy.  If my use of AI bothers you, then this makes me very happy.  I love driving unreasonable people insane,  it's kind of a hobby of mine.
+
 ## Printer Hardware
 
 The printer is a 300mm Voron 2.4 running Klipper.
@@ -374,6 +376,5 @@ I wanted the configuration to describe the printer I actually have today.  CAN t
 More importantly I wanted the behavior to be obvious when reading the files.  A macro should tell you WHY it is doing something, not require archaeology through four include files to discover which version of `PAUSE` won.
 
 This is still a machine I tinker with, so the config will continue changing.  That is sort of the point of building a Voron in the first place.
-#   M y V o r o n 2 . 4 K l i p p e r C o n f i g 
- 
+
  
