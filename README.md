@@ -1,8 +1,8 @@
 # My Voron 2.4 Klipper Configuration
 
-This is the current configuration for my Voron 2.4 300mm.  This is not intended to be a generic "copy these files into your Voron and everything will magically work" config.  If you do that there is a very good chance you are going to have a bad day.  Pins, MCU IDs, probe locations, motor directions, heater limits, offsets and a pile of other things are specific to MY printer.
+This is the current configuration for my Voron 2.4 300mm.  I do not intend this configuration to be a generic "copy these files into your Voron and everything will magically work" setup.  If you do that there is a very good chance you are going to have a bad day.  Pins, MCU IDs, probe locations, motor directions, heater limits, offsets and a pile of other things are specific to MY printer.
 
-What this is intended to be is a working example of how I have my 2.4 set up, and more importantly why some of the things in here are done the way they are.  This printer has evolved over time and recently I went through the configuration and cleaned up a lot of old macros, duplicate behavior and things that had accumulated over years of changing hardware.
+This aims to be a working example of how I set up my 2.4, and more importantly, why I chose to do some of the things in this way.  This printer has evolved over time and recently I went through the configuration and cleaned up a lot of old macros, duplicate behavior and things that had accumulated over years of changing hardware.
 
 There is some custom stuff here, but none of it is magic.  The goal was to make the printer predictable.  Home means home, QGL means QGL, pause actually pauses safely, filament changes do what I expect, and the LEDs/buttons give me useful information instead of just looking pretty.
 
@@ -374,5 +374,6 @@ I wanted the configuration to describe the printer I actually have today.  CAN t
 More importantly I wanted the behavior to be obvious when reading the files.  A macro should tell you WHY it is doing something, not require archaeology through four include files to discover which version of `PAUSE` won.
 
 This is still a machine I tinker with, so the config will continue changing.  That is sort of the point of building a Voron in the first place.
-#   M y V o r o n 2 . 4 K l i p p e r C o n f i g  
+#   M y V o r o n 2 . 4 K l i p p e r C o n f i g 
+ 
  
